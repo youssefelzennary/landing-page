@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
+*{
+      font-family: "Readex Pro", sans-serif;
+      padding: 0px;
+      margin: 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+body{
+    height: 100vh;
+    background-color: navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+width: 100%;
+height: 790px;
+background: url(/donnycocacola--3pxa1O1zoI-unsplash.jpg)  center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.content{
+        width: 30%;
+}
+.content h2{
+    margin: 30px;
+    font-size: 100px;
+    color: white;
+}
+.content p{
+    margin: 30px;
+    color: white;
+    padding:20px 0;
+}
+.content button{
+    margin: 30px;
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
